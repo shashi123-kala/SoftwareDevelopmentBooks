@@ -2,7 +2,6 @@ package com.sdb.price;
 
 public class SoftwareDevelopmentBookSetDiscount {
 
-
 	 private int differentCopies;
 	    private int discount;
 
@@ -18,9 +17,5 @@ public class SoftwareDevelopmentBookSetDiscount {
 	    public int getDiscount(){
 	        return discount;
 	    }
-
-
-
-
 
 }
