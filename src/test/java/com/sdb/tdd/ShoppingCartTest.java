@@ -45,6 +45,14 @@ public class ShoppingCartTest {
 			 assertEquals(100.0 , shoppingCart.getTotalPrice());
 			}
 	 
+		 @Test
+		 public void buyingTwoCopiesOfDifferentBookWithFivePercentDiscount(){
+			 SoftwareDevelopmentBook sdbI = Catalog.GivenASoftwareDevelopmentIBook();
+			 SoftwareDevelopmentBook sdbII = Catalog.GivenASoftwareDevelopmentIIBook();
+			 shoppingCart.Add(sdbI);
+			  shoppingCart.Add(sdbII);
+			  assertEquals( 95,shoppingCart.getTotalPrice());			   
+			 }
 	 
 	
 
